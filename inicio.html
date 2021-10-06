@@ -11,57 +11,65 @@
     <!-- link doc css -->
     <link rel="stylesheet" href="style.css">
     <title>dindin educação financeira - Homepage</title>
-
 </head>
 <body>
     <header>
         <div>
-            <img src="midia/logo-header.png" alt="Logo dindin">
+            <a href="inicio.html"><img src="midia/logo-header.png" alt="Logo dindin"></a>
         </div>
         <ul>
             <!-- com target=_blank, o link abre em uma nova página. decidir se vai ser assim mesmo -->
             <li>
-                <a target="_blank" href:"">CURSOS</a>
+                <a target="_blank" href="cursos.html">CURSOS</a>
             </li>
             <li>
-                <a target="_blank" href:"">BLOG</a>
+                <a target="_blank" href="blog.html">BLOG</a>
             </li>
             <li>
-                <a target="_blank" href:"">CONTATO</a>
+                <a target="_blank" href="contato.html">CONTATO</a>
             </li>
         </ul>
     </header>
 
     <main>
-        <section class="banner">
-            <h1>Educação Financeira é tudo de bom</h1>
-            <h5>Vem comigo que te mostro por onde começar</h5>
+        <div class="banner">
+            <section>
+                <h1>Educação Financeira é tudo de bom</h1>
+                <h5>Vem comigo que te mostro por onde começar</h5>
+    
+                <button>quero saber mais</button>
+            </section>
 
-            <button>quero saber mais</button>
-            
             <img src="midia/ilustra-banner.png" alt="Ilustração Banner">
-        </section>
+        </div>
 
         <section class="cursos">
             <article class="cinvestimento">
                 <img src="midia/ilustra-poupando.png" alt="Ilustração - Curso Investimento para iniciantes">
                 <h3>Investimento para iniciantes</h3>
                 <p>Duis aute irure dolor in reprehenderit in voluptate velit es se cillum dolore eu fugiat nulla pariatur.</p>
-                <button class="rosa">começar agora</button>
+                
+                <a target="_blank" href="cursoinvestimento.html">
+                    <button class="rosa">começar agora</button>
+                </a>
             </article>
             
             <article class="cpoupando">
                 <img src="midia/ilustra-investimento.png" alt="Ilustração - Curso Poupando e Rendendo">
                 <h3>Poupando e Rendendo </h3>
                 <p>Duis aute irure dolor in reprehenderit in voluptate velit es se cillum dolore eu fugiat nulla pariatur.</p>
-                <button class="rosa">começar agora</button>
+                <a target="_blank" href="">
+                    <button class="rosa">começar agora</button>
+                </a>
             </article>
 
             <article class="cindependencia">
                 <img src="midia/ilustra-independencia.png" alt="Ilustração - Curso Independência Financeira">
                 <h3>Independencia Financeira</h3>
                 <p>Duis aute irure dolor in reprehenderit in voluptate velit es se cillum dolore eu fugiat nulla pariatur.</p>
-                <button class="rosa">começar agora</button>
+                <a target="_blank" href="">
+                    <button class="rosa">começar agora</button>
+                </a>
             </article>
         </section>
 
@@ -69,16 +77,19 @@
             <h2>O QUE FALAM SOBRE NÓS</h2>
             
             <div>
-                <img src="midia/icon-wally.png" alt="Foto Wally">
-                <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."</p>
-                <p class="identidade">Wally, 25</p>
+                <div>
+                    <img src="midia/icon-wally.png" alt="Foto Wally">
+                    <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."</p>
+                    <p class="identidade">Wally, 25</p>
+                </div>
+            
+                <div>
+                    <img src="midia/icon-jaden.png" alt="Foto Jaden Smith">
+                    <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."</p>
+                    <p class="identidade">Jaden Smith, 23</p>
+                </div>
             </div>
             
-            <div>
-                <img src="midia/icon-jaden.png" alt="Foto Jaden Smith">
-                <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."</p>
-                <p class="identidade">Jaden Smith, 23</p>
-            </div>
 
             <div>
                 <img src="midia/icon-whoopi.png" alt="Foto Whoopi Goldberg">
@@ -96,25 +107,29 @@
         <section class="blog">
             <h2>MAIS CONTEÚDO PARA VOCÊ</h2>
 
-            <article>
-                <img src="midia/GrayRectangle.png">   
-                <h4>Itaque earum rerum</h4>
-                <p> hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
-            </article>
+            <section class="posts">
+                <article>
+                    <img src="midia/GrayRectangle.png">   
+                    <h4>Itaque earum rerum</h4>
+                    <p> hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+                </article>
 
-            <article>
-                <img src="midia/GrayRectangle.png">   
-                <h4>Itaque earum rerum</h4>
-                <p> hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
-            </article>
+                <article>
+                    <img src="midia/GrayRectangle.png">   
+                    <h4>Itaque earum rerum</h4>
+                    <p> hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+                </article>
 
-            <article>
-                <img src="midia/GrayRectangle.png">   
-                <h4>Itaque earum rerum</h4>
-                <p> hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
-            </article>
-
-            <button>ver todos os posts</button>
+                <article>
+                    <img src="midia/GrayRectangle.png">   
+                    <h4>Itaque earum rerum</h4>
+                    <p> hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+                </article>
+            </section>
+        
+            <a target="_blank" href="blog.html">
+                <button class="branco">ver todos os posts</button>
+            </a>
         </section>
     </main>
 
@@ -124,13 +139,13 @@
         <ul>
             <!-- com target=_blank, o link abre em uma nova página. decidir se vai ser assim mesmo -->
             <li>
-                <a target="_blank" href:"">CURSOS</a>
+                <a target="_blank" href="cursos.html">CURSOS</a>
             </li>
             <li>
-                <a target="_blank" href:"">BLOG</a>
+                <a target="_blank" href="blog.html">BLOG</a>
             </li>
             <li>
-                <a target="_blank" href:"">CONTATO</a>
+                <a target="_blank" href="contato.html">CONTATO</a>
             </li>
         </ul>
 
