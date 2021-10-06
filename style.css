@@ -6,6 +6,7 @@
 
 h1{
     color: #ff4081;
+    font-weight: 700;
 }
 
 h2{
@@ -30,6 +31,10 @@ p{
 
 }
 
+a{
+    text-decoration: none;
+}
+
 button{
     cursor: pointer;
 }
@@ -42,13 +47,13 @@ article .rosa{
     border-radius: 20px 20px 20px 20px;
 }
 
+
 header{
     background-color: #2E948A;
     box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
-    color: #fdfdfd;
     padding: 5px;
     display: flex;
-    /* justify-content: space-around; */
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -62,10 +67,15 @@ header ul li{
     padding: 10px;
 }
 
-/* .banner{
+header ul li a{
+    color: #fdfdfd;
+}
+
+.banner{
     display: flex;
     align-items:inherit ;
-} */
+    justify-content: center;
+}
 
 .banner button{
     color: #ff4081;
@@ -77,16 +87,60 @@ header ul li{
 
 .cursos{
     background-color: #f6f6f6;
+    display: flex;
+}
 
+.cursos article{
+    padding: 15px;
 }
 
 .blog{
     background-color: #f6f6f6;
 }
 
+.blog h2{
+    text-align: center;
+}
+
+.blog .posts{
+    display: flex;
+}
+
+.blog .posts article{
+    padding: 15px;
+}
+
+.blog button{
+    color: #ff4081;
+    border-color: #ff4081;
+    background-color: #fff;
+    padding: 10px 10px;
+    border-radius: 20px 20px 20px 20px;
+}
 /* .blog article{
  display: list-item ;
 } */
+
+
+
+#contato {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#contato input{
+    color: #58555d;
+    border-color: #686868;
+    border-radius: 4px 4px 4px 4px;
+}
+
+
+
+
+
+
 
 
 footer{
@@ -94,13 +148,17 @@ footer{
     color: #fff;
     padding: 5px;
     display: flex;
-    /* justify-content: space-around; */
+    justify-content: space-around;
     align-items: center;
 }
 
 footer ul li{
     list-style: none;
     padding: 2px;
+}
+
+footer ul li a{
+    color: #fdfdfd;
 }
 
 footer div{
